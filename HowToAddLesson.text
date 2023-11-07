@@ -1,0 +1,107 @@
+
+                Unlock lessons (cards) and change it from "wait => new" :
+------------------------------------------------------------------------------------------
+1- Open "src" folder   =>
+
+2- Open "components" folder  =>
+
+3- select folder "CardMath" or  "CardArabic"
+
+4- click its "Javascript file"
+
+5- scroll down when you see (props.IdPrams === 1  ? `/GoCardPageMath/${1}`:) 
+
+6- copy that code and change its number by the argamment (the range 0,1,2,.....) by there you unlock the card that you add it 
+
+7- to change a data for card that you unlock it open :  "src" folder  =>
+
+8- open "data" folder  =>
+
+9- select "DataCardsBceMaht" or "DataCardsBaseArabic" =>
+
+10- then find an object that you need to change its data 
+
+11- to complete change a data for card that you unlock it open :  "src" folder  =>
+
+12- open "sections" folder =>
+
+13 - selcet "ClickCardSecMath" or "ClickCardSecArabic"
+
+14 - then scroll down and change one by one for the card that you unlock it 
+
+
+Note : IF YOU Unlock MAYBE THE CARD NUMBER 8    YOU WILL JUST CHANGE A DATA THAT HAVE  (numberOFprams === "8")   OR   (IdPrams : 8 )
+
+Note : WHEN YOU WANT TO Unlock CARDS FOR 'ARABIC LESSONS' YOU WILL NOT SEE SOME THING HELP YOU TO Unlock SO 
+COPY THAT CODE AND PUT IT IN SAME LOCATION THAT IN "CardMath" folder 
+THE CODE IS :     page = {
+                        props.IdPrams === 1  ? `/GoCardPageArabic/${1}`:
+                        props.IdPrams === 2  ? `/GoCardPageArabic/${2}`
+                        : '/'  } 
+
+AND IF YOU WANT TO OPEN THE THIRD CARD PUT THIS CODE IN SAME LOCATION : 
+     props.IdPrams === 3  ? `/GoCardPageArabic/${3}`:
+JUST CHANGE THE NUMBER 
+
+-----------------------------------------------------------------------------------------
+
+
+
+
+                             Add     New    lesson (card) :
+------------------------------------------------------------------------------------------
+
+1- Open "src" folder     => 
+
+2- Open "Data" folder     => 
+
+3- selcet a folder that you want to add in( MathData / ArabicData )    =>
+
+4- copy a last card data that you see and change it by like you want and change 'IdPrams' by the argamment (range of cards)      =>     
+
+5- copy a last card data that you see and change it by like you want and change 'IdPrams' by the argamment (range of cards)      =>  
+
+6- open "sections" folder      =>      
+
+7- open folder (click card  SecMath / SecArabic)  =>
+
+8- open a Javascript file for  (ClickCardSec Math / Arabic)          =>
+
+9- scroll when you see a         <h1 className = title-card-1></h1>            =>  
+
+10- inside it you should to copy a last line and change the "title" by like you want and change'numberOFprams' by the argamment (range of cards)        =>
+
+11- in the same fill scroll down when you see a       <a herf = {}></a>           =>
+
+12 - inside it you should to copy a last line and change the "link" by like you want and change'numberOFprams' by the argamment (range of cards)   link for lesson then scroll and ,  put link for shorten lesson , and link for qusteions  
+
+13 - if you want to control about how many cards show in one line you should to open 
+src folder => components folder => choose (Card Math/Arabic) folder => click a css file for card  => scroll down when you see the edits for (.the-items-Math) and inside it change a flex 
+
+
+------------------------------------------------------------------------------------------
+
+
+
+
+                             Add  Links in (social media sites) :
+------------------------------------------------------------------------------------------
+
+Header links : 
+1- Open "src" folder        =>
+2- Open "sections" folder   =>
+3- open "Header" folder     =>
+4- open its Javascript file   =>
+5- find name of an applecations such as (instgram , youtube .....) =>
+6- chang a name of herf   like :     <a herf = ' put your link here '>  
+
+
+Footer :
+1- Open "src" folder        =>
+2- Open "sections" folder   =>
+3- open "Footer" folder     =>
+4- open its Javascript file   =>
+5- find name of an applecations such as (instgram , youtube .....) =>
+6- chang a name of herf  like : <a herf = ' put your link here '>  
+
+------------------------------------------------------------------------------------------

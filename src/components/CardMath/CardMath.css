@@ -1,0 +1,47 @@
+/*Here all Css style for all elemnts that in file (Lesson.css) */
+
+.card-wrapper-Math{
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 5px;
+    
+}
+
+.image-item-Math{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    height: 150px;
+}
+
+
+.title-card-image{
+    color: red;
+    transform:translate(-20px , -120px);
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+
+.item-content-Math{
+    display: flex;/*let texts right side*/
+    justify-content: space-between; 
+}
+
+.title-item-Math big{
+    color:deeppink;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.p-card{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: -15px;
+}
+
+
+.the-items-Math{
+    flex: 1 25%; /*that allow all cards be flixed just to (4) */
+}

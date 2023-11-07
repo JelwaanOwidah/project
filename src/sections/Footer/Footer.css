@@ -1,0 +1,89 @@
+.link-footer {
+    color: azure;
+    font-size: 1.0em;
+}
+
+.link-footer:active{
+    color: red;
+    font-size: 1.1em;
+}
+
+.link-footer{
+    color: black;
+}
+
+.link-footer:hover{
+    color: blue;
+    font-size: 1.1em;
+}
+
+.copyright{
+    color: black;
+    font-size: 1em;
+}
+
+
+
+
+.maint_text_secoil_media{
+    text-align: center;
+    font-weight: 1000;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: 4px 30px 9px black;
+}
+.social-media{
+    margin-top: 15px;
+    border: 10px solid black;
+    border-radius: 100px;
+    background: black;
+    width: 65%;
+    margin: auto;
+}
+.social-media span{
+    display: inline-block;
+    padding: 6px;
+}
+.Items-social{
+    border: 5px solid  white;
+    border-radius: 50px ;
+    background-color: rgb(26, 25, 25);
+    font-size: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.Youtube a{
+    color: rgba(255, 0, 0, 0.649);
+}
+.Youtube a:hover{
+    color:red;
+    font-size: 53px;
+}
+.Insgram a{
+    color: rgba(137, 43, 226, 0.644);
+}
+.Insgram a:hover{
+    color:blueviolet;
+    font-size: 53px;
+}
+.Tiktok a{
+    color: rgba(145, 108, 114, 0.74);
+}
+.Tiktok a:hover{
+    color: rgb(159, 118, 125);
+    font-size: 53px;
+}
+.Telegram a{
+    color: rgba(0, 0, 255, 0.547);
+}
+.Telegram a:hover{
+    color:blue;
+    font-size: 53px;
+}
+
+.Items-social div{
+    font-size: 10px
+}

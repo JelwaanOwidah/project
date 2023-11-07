@@ -1,0 +1,28 @@
+.hero-main {
+    background-image: url("../../assest/images/Hero.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 230px;
+    justify-items: baseline;
+    display: flex;
+    border-radius: 10px;
+}
+
+.hero-text{
+    max-width: 500px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .hero-main{
+        padding: 75px;
+        
+    }
+}
+
+
+
+
+

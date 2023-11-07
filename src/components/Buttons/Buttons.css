@@ -1,0 +1,56 @@
+.Primary_Button{
+    background-color: #ef4646da;
+    border: 5px solid  rgb(31, 31, 31);
+    border-radius: 7px;
+    box-shadow: 25px,15px,15px,beige;
+}
+.Primary_Button:hover{
+    font-size: 17px;
+    border: 7px groove rgba(0, 0, 0, 0.496) ; 
+    background-color: red;
+}
+.Primary_Button a {
+    color: white;
+    text-decoration: none;
+    box-shadow: 25px,15px,15px,beige;
+    font-size: 20px;
+}
+
+
+
+
+.Secondary_Button{
+    background-color: rgba(64, 64, 211, 0.81);
+    border: 7px solid black ;
+    border-radius: 7px; 
+    box-shadow: 25px,15px,15px,beige;
+}
+.Secondary_Button:hover{
+    font-size: 17px;
+    border: 7px groove rgba(0, 0, 0, 0.433) ; 
+    background-color: blue;
+}
+.Secondary_Button a {
+    color: white;
+    text-decoration: none;
+    box-shadow: 25px,15px,15px,beige;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (min-width: 700px) { 
+    .Primary_Button{
+        font-size: 1.33em;
+    } 
+    .Primary_Button:hover{
+        font-size: 21px;
+    }
+    .Secondary_Button{
+        font-size: 1.33em;
+    }
+    .Secondary_Button:hover{
+        font-size: 21px ; 
+    }
+}
+

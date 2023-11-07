@@ -1,0 +1,10 @@
+/*Here all Css edits and style will happen for the whole website from top to the down (main css) */
+
+body {
+    background-color:rgba(233, 228, 228, 0.874);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+}
+
+/*background-image: url("./assest/images/background.jpeg");*/
